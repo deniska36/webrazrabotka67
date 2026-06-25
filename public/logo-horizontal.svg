@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 120">
+  <rect x="10" y="10" width="100" height="100" rx="20" fill="#15212E" />
+  <line x1="41" y1="38" x2="41" y2="83" stroke="#FF7A3D" stroke-width="8" stroke-linecap="round" />
+  <polyline points="41,38 65,38 79,49 65,60" fill="none" stroke="#FF7A3D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="65,60 79,71 65,83 41,83" fill="none" stroke="#FF7A3D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="130" y="72" font-family="Unbounded, Arial, sans-serif" font-weight="700" font-size="40" letter-spacing="-0.5">
+    <tspan fill="#15212E">ВЕБ</tspan><tspan fill="#2F62ED">РАЗРАБОТКА</tspan>
+  </text>
+</svg>

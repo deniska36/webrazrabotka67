@@ -1,0 +1,75 @@
+:root {
+  /* --- Цвет --- */
+  --color-ink: #15212e;          /* основной текст, тёмные секции */
+  --color-ink-soft: #243244;     /* тёмный, но мягче (карточки на инверсии) */
+  --color-blueprint: #2f62ed;    /* бренд-акцент, ссылки, активные элементы */
+  --color-blueprint-dim: #e8edfd;/* подложка под акцентом */
+  --color-signal: #ff7a3d;       /* CTA, маркер "в работе" */
+  --color-signal-dim: #ffe7d9;
+  --color-success: #1f9d55;      /* статус "готово / live" */
+  --color-success-dim: #e1f5e8;
+  --color-paper: #f5f2ec;        /* основной фон, тёплый, не чисто белый */
+  --color-paper-dim: #ebe6dc;    /* вторичный фон, разделители секций */
+  --color-white: #ffffff;
+  --color-slate: #6b7686;        /* вторичный текст */
+  --color-line: rgba(21, 33, 46, 0.12);
+  --color-line-soft: rgba(21, 33, 46, 0.07);
+
+  --font-display: 'Unbounded', 'Arial', sans-serif;
+  --font-body: 'Manrope', 'Arial', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+
+  --fs-hero: clamp(2.2rem, 5vw, 4.2rem);
+  --fs-h1: clamp(1.9rem, 3.4vw, 2.8rem);
+  --fs-h2: clamp(1.5rem, 2.4vw, 2rem);
+  --fs-h3: 1.2rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-micro: 0.75rem;
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 6.5rem;
+
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --radius-l: 20px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 2px rgba(21, 33, 46, 0.04), 0 8px 24px rgba(21, 33, 46, 0.06);
+  --shadow-raised: 0 4px 10px rgba(21, 33, 46, 0.08), 0 16px 40px rgba(21, 33, 46, 0.1);
+
+  --container-w: 1180px;
+
+
+  --surface-page: var(--color-paper);
+  --surface-card: var(--color-white);
+  --surface-alt: var(--color-paper-dim);
+  --text-primary: var(--color-ink);
+  --text-secondary: var(--color-slate);
+  --border-color: var(--color-line);
+  --border-color-soft: var(--color-line-soft);
+  --tint-blueprint: var(--color-blueprint-dim);
+  --tint-signal: var(--color-signal-dim);
+  --tint-success: var(--color-success-dim);
+}
+
+[data-theme='dark'] {
+  --surface-page: #12161c;
+  --surface-card: #1b212a;
+  --surface-alt: #20262f;
+  --text-primary: #f1eee7;
+  --text-secondary: #9aa3af;
+  --border-color: rgba(255, 255, 255, 0.12);
+  --border-color-soft: rgba(255, 255, 255, 0.07);
+  --tint-blueprint: rgba(47, 98, 237, 0.18);
+  --tint-signal: rgba(255, 122, 61, 0.18);
+  --tint-success: rgba(31, 157, 85, 0.18);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.3);
+  --shadow-raised: 0 4px 10px rgba(0, 0, 0, 0.25), 0 16px 40px rgba(0, 0, 0, 0.35);
+}

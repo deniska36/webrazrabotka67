@@ -1,0 +1,17 @@
+<script setup>
+defineProps({
+  filled: { type: Boolean, default: true },
+})
+</script>
+
+<template>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path
+      d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.1 5.9-.8L12 3.5Z"
+      :fill="filled ? 'currentColor' : 'none'"
+      :stroke="filled ? 'none' : 'currentColor'"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+  </svg>
+</template>
