@@ -1,0 +1,2 @@
+const r="yukyfkyfukfyk@gmail.com",s="mnjkpqwz";function c(t,o){const n=o.map(([e,i])=>`${e}: ${i||"—"}`).join(`
+`),a=new URLSearchParams({subject:t,body:n});return`mailto:${r}?${a.toString()}`}async function p(t,o){try{const n=Object.fromEntries(o);if(n._subject=t,(await fetch(`https://formspree.io/f/${s}`,{method:"POST",headers:{Accept:"application/json","Content-Type":"application/json"},body:JSON.stringify(n)})).ok)return"sent"}catch{}return window.location.href=c(t,o),"mailto"}export{p as s};
